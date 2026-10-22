@@ -1,0 +1,15 @@
+name: castlevania
+description: App de Castlevania (Netflix)
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  youtube_player_flutter: ^9.1.1
+  url_launcher: ^6.3.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/img/
